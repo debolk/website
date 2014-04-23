@@ -1,0 +1,13 @@
+.registrations img {
+    border-radius: 32px;
+}
+
+body {
+    background-color: #F1F2F6;
+}
+
+.container {
+    background-color: white;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
