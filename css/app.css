@@ -1,13 +1,72 @@
-.registrations img {
-    border-radius: 32px;
-}
-
+/* Structural elements */
 body {
     background-color: #F1F2F6;
+    font-size: large;
 }
 
-.container {
+header, footer {
+    background-color: #DA4453;
+    color: white;
+    padding: 1em;
+}
+
+section {
+    padding-top: 1em;
     background-color: white;
-    border-bottom-right-radius: 1em;
-    border-bottom-left-radius: 1em;
+    padding-bottom: 1em;
+}
+
+section > .col-md-12 {
+    margin-bottom: 2em;
+}
+
+/* Header */
+header img {
+    float: left;
+    margin-right: 1em;
+}
+
+header h1 {
+    margin-top: 0.4em;
+    font-size: 32pt;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-size: 16pt;
+    font-weight: medium;
+    margin-top: 0;
+}
+
+header nav {
+    text-align: right;
+    font-size: large;
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover, header a:active {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* Contact */
+table td {
+    padding-right: 1em;
+}
+
+/* Content elements */
+img {
+    max-width: 100%;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+p {
+    text-align: justify;
 }

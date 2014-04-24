@@ -1,4 +1,4 @@
 The main website of De Bolk. 
 
-# License
+## License
 Copyright 2014 Jakob Buis. 
