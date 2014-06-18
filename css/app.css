@@ -73,8 +73,7 @@ p {
 /*Slideshow*/
 #slideshow {
 position:relative;
-height:200px;
-width:450px;
+
 }
 #slideshow .slide {
 position:absolute;
