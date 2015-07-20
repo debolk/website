@@ -1,0 +1,94 @@
+body {
+	font-size: x-large;
+}
+#div-logos {
+	overflow: hidden;
+}
+#div-btns {
+	padding: 10px;
+}
+#div-owee {
+	padding-right: 10px;
+}
+#div-bolk {
+	padding-left: 10px;
+}
+
+#btn-owee, #btn-bolk {
+	display: block;
+	width: 50%;
+	font-size: 40px;
+	line-height: 3;
+}
+
+#btn-owee {
+	float: left;
+	background-color: #a0ff00;
+	border-color: #a0ff00;
+	color: #000;
+	font-weight: 600;
+}
+#btn-owee:hover {
+	background-color: #84D300;
+	border-color: #84D300;
+}
+
+#btn-bolk {
+	float: right;
+	background-color: #DA4453;
+	border-color: #DA4453;
+	background-color: #80090C;
+	border-color: #80090C;
+}
+#btn-bolk:hover {
+	background-color: #D02939;
+	border-color: #D02939;
+}
+
+#logo {
+	display: block;
+	margin: 2em auto;
+	/*float: left;*/
+	width: 20%;
+	min-width: 290px;
+	max-width: 580px;
+}
+#logo2 {
+	display: block;
+	margin: 2em auto;
+	float: right;
+	width: 20%;
+	min-width: 290px;
+	max-width: 580px;
+	background-color: #80090C;
+}
+
+@media only screen and (max-width : 760px) {
+	#div-bolk, #div-owee {
+		padding: 5px 0;
+	}
+	
+	#btn-owee, #btn-bolk {
+		float: none;
+		width: 100%;
+	}
+	
+	#logo {
+		float:none;
+	}
+	#logo2 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 380px) {
+	#btn-bolk, #btn-owee {
+		font-size: 32px;
+	}
+}
+
+@media only screen and (max-height : 600px) {
+	#logo, #logo2 {
+		margin: 1em auto;
+	}
+}
